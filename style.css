@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        color: #fff;
+    }
+    
+    #services {
+        position: relative;
+        overflow: hidden;
+        padding: 40px 20px;
+        background: #111;
+        border: 1px solid #333;
+        animation: cctvBackground 5s infinite linear;
+    }
+    
+    .gallery img {
+        width: 100px;
+        height: auto;
+        margin-right: 10px;
+    }
+    
+    button {
+        background-color: #1e90ff;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 2px;
+        cursor: pointer;
+    }
+    
+    button.hover-effect:hover {
+        background-color: #ffffff;
+        color: #1e90ff;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    /* Animation */
+    @keyframes cctvBackground {
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: 100% 0;
+        }
+    }
+    
+    #services {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 50%, rgba(30, 144, 255, 0.5) 50%);
+        background-size: 200% 100%;
+    }
+    
+}
+
+header {
+    background: url('galaxy-background.jpg') no-repeat center center/cover;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome-banner h1 {
+    font-size: 3em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #333;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+.gallery img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+button.hover-effect:hover {
+    background-color: #ffffff;
+    color: #1e90ff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #333;
+}
+
+.social-media a {
+    color: #1e90ff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
